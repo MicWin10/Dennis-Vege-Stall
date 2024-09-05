@@ -18,10 +18,10 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 97%; /* Full width */
-    z-index: 1000; /* Ensure it stays on top of other elements */
-    background-color: white; /* Keep the background color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visibility */
+    width: 97%; 
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    background-color: white; /* Keeping the background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,12 +71,12 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.3; /* Make the image slightly transparent */
+    opacity: 0.3; /* Making the image slightly transparent */
 }
 
 .welcome-text {
     position: relative;
-    z-index: 1; /* Make sure the text is above the image */
+    z-index: 1; 
 }
 
 .welcome-text h1 {
@@ -126,8 +126,8 @@ header {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 300px; /* Ensure consistency */
-    flex: 1 1 200px; /* Flexible sizing */
+    max-width: 300px; 
+    flex: 1 1 200px; 
 }
 
 .special-item img {
@@ -168,23 +168,23 @@ header {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .event-item {
     text-align: center;
-    width: 300px; /* Increased width for larger images */
-    background-color: #2a7c6f; /* As per previous request */
+    width: 300px; 
+    background-color: #2a7c6f; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: white; /* Ensure text is readable on dark background */
-    position: relative; /* For potential future enhancements */
+    color: white; 
+    position: relative; 
 }
 
 .event-img {
     width: 100%;
-    height: 200px; /* Increased height for larger images */
+    height: 200px; 
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -211,10 +211,10 @@ header {
 
 .opening-hours-container {
     position: relative;
-    display: block; /* Changed from inline-block to block for full-width */
-    width: 80%; /* Adjust as needed */
-    max-width: 800px; /* Maximum width */
-    margin: 0 auto; /* Center the container */
+    display: block; 
+    width: 80%; 
+    max-width: 800px; 
+    margin: 0 auto; /* Centering the container */
 }
 
 .opening-hours-image {
@@ -229,10 +229,9 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    /* Removed background-color */
     padding: 10px 20px;
     border-radius: 5px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
 .opening-hours-text h2 {
@@ -274,7 +273,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    /* Removed background-color */
     padding: 10px 20px;
     border-radius: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -347,9 +345,9 @@ footer {
 /* Product Grid */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    gap: 20px; /* Space between the items */
-    justify-items: center; /* Center items horizontally */
+    grid-template-columns: repeat(4, 1fr); /* Listing with 4 columns */
+    gap: 20px; /* Another way to add space between items */
+    justify-items: center; 
     padding: 0 20px;
 }
 
@@ -360,13 +358,13 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%;
-    max-width: 250px; /* Optional: Set a max width for the items */
+    max-width: 250px; 
 }
 
 .product-item img {
-    width: 100%; /* Make the image fill the container */
-    height: 200px; /* Set a consistent height for the images */
-    object-fit: cover; /* Ensure the image fits without distortion */
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; /* Ensuring the image fits without distortion */
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -386,8 +384,8 @@ footer {
 /* About Section */
 .about-section {
     background-color: #2a7c6f;
-    width: 100%; /* Full width */
-    padding: 40px 0; /* Space around the content */
+    width: 100%; 
+    padding: 40px 0; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -398,24 +396,24 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Space between the text and image */
-    width: 80%; /* Adjust as needed */
+    gap: 20px; 
+    width: 80%; 
 }
 
 /* Text Container */
 .text-container {
     flex: 1; /* Equal width for both divs */
-    max-width: 500px; /* Optional: Set a max width for better control */
-    padding: 20px; /* Add padding inside the box */
-    background-color: white; /* Optional: Add background color for better contrast */
-    border-radius: 10px; /* Optional: Rounded corners */
+    max-width: 500px;
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 10px; /* Rounded corners */
 }
 
 .text-container p {
-    color: #2a7c6f; /* Text color */
+    color: #2a7c6f;
     font-size: 1.2em;
     line-height: 1.6;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .text-container h1 {
@@ -424,14 +422,14 @@ footer {
 
 /* Image Container */
 .image-container {
-    flex: 1; /* Equal width for both divs */
-    max-width: 500px; /* Optional: Set a max width for better control */
+    flex: 1; 
+    max-width: 500px; 
 }
 
 .image-container img {
-    width: 100%; /* Full width of the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Rounded corners */
+    width: 100%; 
+    height: auto; /* Maintaining aspect ratio */
+    border-radius: 10px; 
 }
 
 /* Video Section */
@@ -449,13 +447,13 @@ footer {
 
 .video-container {
     position: relative;
-    padding-bottom: 30%; /* 16:9 Aspect Ratio */
+    padding-bottom: 30%; 
     height: 0;
     overflow: hidden;
     max-width: 1080px;
     margin: 0 auto;
-    border-radius: 10px; /* Optional: Rounded corners */
-    background-color: #000; /* Optional: Black background */
+    border-radius: 10px; 
+    background-color: #000; 
 }
 
 .video-container iframe {
